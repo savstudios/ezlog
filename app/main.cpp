@@ -5,6 +5,7 @@ int main()
 {
 
     Log log;
+    log.SetLevel(log.Log_Info);
     log.Trace("Trace");
     log.Debug("Debug");
     log.Info("Info");
