@@ -1,6 +1,6 @@
 @echo off
 
-set files_cpp=app/main.cpp core/log/log.cpp
+set files_cpp=app/main.cpp core/log/log.cpp core/other/messageBox.cpp
 set files_h=core
 set build_name=EZLOG_TEST
 

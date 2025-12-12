@@ -1,15 +1,20 @@
+#pragma once
+
 class Log
 {
     private:
         int m_LogLevel = Log_Trace;
     public:
 
-        const int Log_CritError = 0;
-        const int Log_Error = 1;
-        const int Log_Warn = 2;
-        const int Log_Info = 3;
-        const int Log_Debug = 4;
-        const int Log_Trace = 5;
+        enum logLevels
+        {
+            Log_CritError = 0,
+            Log_Error = 1,
+            Log_Warn = 2,
+            Log_Info = 3,
+            Log_Debug = 4,
+            Log_Trace = 5,
+        };
 
         void SetLevel(int level);
 
